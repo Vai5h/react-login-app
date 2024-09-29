@@ -1,0 +1,63 @@
+/* General body styling for centering */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgba(0, 98, 137, 0.8), rgba(0, 150, 136, 0.8)); /* Peacock Blue and Green gradient */
+}
+
+/* Container styling for the login form */
+.MuiContainer-root {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  padding: 2rem;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Blurred background */
+}
+
+/* Styling for the login button */
+.MuiButton-root {
+  text-transform: none;
+  font-size: 1rem;
+  padding: 0.75rem 0;
+  background-color: rgba(0, 98, 137, 0.8); /* Peacock Blue for buttons */
+  border-radius: 30px; /* Curved button corners */
+  color: white; /* White text on button */
+}
+
+.MuiButton-root:hover {
+  background-color: rgba(0, 150, 136, 0.8); /* Hover color - Peacock Green */
+}
+
+/* Typography styling for the login header */
+.MuiTypography-h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Add some margin to input fields */
+.MuiTextField-root {
+  margin-bottom: 1rem;
+  border-radius: 10px; /* Rounded input fields */
+}
+
+/* Remember me checkbox customization */
+.MuiCheckbox-root {
+  color: rgba(0, 98, 137, 0.8);
+}
+
+/* Avatar customization */
+.MuiAvatar-root {
+  background-color: rgba(0, 98, 137, 0.8);
+  margin-bottom: 1rem;
+}
+
+/* Links customization */
+.MuiLink-root {
+  color: rgba(0, 98, 137, 0.8);
+}
